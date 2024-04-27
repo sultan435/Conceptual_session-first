@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@400;700&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav style starts here */
+
+nav {
+    background-color: #9376e0;
+}
+
+.nav-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-container {
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+}
+
+.logo-container img {
+    width: 100px;
+    object-fit: cover;
+    
+
+
+}
+
+.logo-container p {
+    font-size: 30px;
+    color: #fff;
+}
+
+.hive-content {
+    color: #e893cf;
+}
+
+.nav-items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-items-container .logo-btn {
+    background-color: #e893cf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+
+}
+
+.fa-solid {
+    margin-left: 5px;
+    color: #9376e0;
+}
+
+/* nav style ends here */
+
+/* banar style starts here */
+.banar {
+    max-width: 1440px;
+    margin: 50px auto 0;
+    min-height: 50px;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.486);
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.banar-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banar-image{
+    width: 50%;
+}
+.banar-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.banar-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+.banar-discription{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10px;
+}
+.fa-brands{
+    font-size: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    padding: 10px 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+/* banar section ends here */
+
+/* products section starts here */
+
+.grid-container{
+    display: grid;
+    max-width: 1440px;
+    min-height: 400px;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    
+}
+.card{
+    /* width: 30%; */
+    background-color: gray;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 8px black;
+
+}
+.card img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    
+   
+}
+.products-icon-container{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.products-icon-container h3{
+    font-size: 1.8rem;
+        
+}
+
+.card p{
+    font-size: 1.25rem;
+}
+
+.products-icon-container span{
+    padding: 10px;
+    background-color: rgb(28, 30, 32);
+    border-radius: 50%;
+    padding-left: 8px;
+    color: red;
+}
+
+/* products section ends here */
+
+/* discount section starts here */
+.discount-section{
+    background-color: #9376e0;
+    padding: 20px 0px;
+    margin-top: 50px;
+
+}
+.discount-container{
+   
+    max-width: 1440px;
+   
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+   
+
+}
+.discount-img{
+    
+    width: 50%;
+    position: relative;
+}
+
+.discount-content{
+    
+    width: 50%;
+}
+.discount-img img{
+   
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.bonus{
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3%;
+    right: 20%;
+}
+
+/* discount section starts here */
+
+.review-container{
+    
+    min-height: 700px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.custumer-review{
+   
+    flex-basis: 300px;
+    background-color: #e893cf;
+    border-radius: 15px;
+    padding: 10px;
+}
+.review-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.review-card img{
+    width: 70px;
+    height: 70px;
+}
